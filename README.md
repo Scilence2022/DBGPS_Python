@@ -1,12 +1,12 @@
-============================================================================================================================
+
 
 #### DNA Fountain Codes and DBGPS in python for reliable DNA strand reconstruction in DNA data storage.
 
-============================================================================================================================
+
 
 The Fountain codes is modified from [https://github.com/dbieber/fountaincode](https://github.com/dbieber/fountaincode)
 
-============================================================================================================================
+
 
 
 #### Source Files
@@ -32,4 +32,3 @@ The Fountain codes is modified from [https://github.com/dbieber/fountaincode](ht
 
 [seqFountain.py](seqFountain.py) defines the seqFountain object which can open a sequencing file and generate specific number of random reads.
 
-============================================================================================================================
