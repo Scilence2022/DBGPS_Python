@@ -1,6 +1,6 @@
 
 
-#### DNA Fountain Codes and DBGPS in python for reliable DNA strand reconstruction in DNA data storage.
+## De Bruijn Graph-based de novo strand assembly for reliable and fast data retrieval in DNA data storage
 
 
 
@@ -22,7 +22,7 @@ The Fountain codes is modified from [https://github.com/dbieber/fountaincode](ht
 
 [crc16pure.py](crc16pure.py) contains the function implements the CRC16 codes.
 
-[glass.py](glass.py) defines a Glass, used to collect DNADroplets and/or Droplets and reconstruct the original data
+[glass.py](glass.py) defines a Glass, used to collect DNADroplets and/or Droplets and reconstruct the original data. The decoding functions have been modified to enhance decoding performance especially with large files. 
 
 [DNAHandler.py](DNAHandler.py) defines the DNAHandler, used for DNA sequences manupulations, e.g. replication and introduction of errors in specified rates.
 
